@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .img-in-text {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+    <title>Aula 5</title>
+</head>
+<body>
+    <h1 style="background: purple;">Cabeçalho</h1>
+<p> <b>Lorem</b> <strong>ipsum</strong>, <i>dolor</i> <em>sit</em> amet consectetur adipisicing elit.<br>
+     <a href="index.html" target="_blank">Distinctio</a> rerum adipisci <small>calhorda</small>magnam quas, optio nam in et illo itaque
+     amet odit, <del>saepe</del> <ins>omnis</ins> fuga.10<sup>2</sup> <s>Fuga</s>, <u>inventore.</u> <a target="_blank" href= https://docs.python.org/3.13/howto/argparse.html>Ea</a>
+     autem magnam tempora?10<sub>2</sub><br>
+     <q>This tutorial is intended to be a gentle introduction to argparse, the recommended command-line parsing module in the Python standard library.</q> 
+    <img class="img-in-text" src="https://docs.python.org/3.13/_static/py.svg" alt="Python logo">
+</p>
+<hr>
+<p><span>Testando a inserção de um código.</span></p>
+<pre><code style="color: purple;"> 
+def mode(numbers: list[float]):
+    if len(numbers) == 0:
+        return None
+    most_frequent_number = None
+    frequency_number = 0
+    number = {}
+    for i in numbers:
+        if i not in number:
+            number[i] = 0
+        number[i] += 1
+        if number[i] > frequency_number:
+            most_frequent_number = i
+            frequency_number = number[i]
+    return most_frequent_number
+</code></pre>
+<blockquote>Bloco de citação</blockquote>
+</body>
+<footer>
+    Thiaguinho Produções
+</footer>
+</html>
